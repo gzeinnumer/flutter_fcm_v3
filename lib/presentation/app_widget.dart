@@ -24,6 +24,13 @@ class _MyAppState extends State<MyApp> {
     //todo 16 tigger manual dari firebase img_2 img_3 img_4 img_5
     //todo 17 hasil ada di img_6
     //todo 18 fokus ke menampilkan ke notifikasi
+
+    //todo 19
+    FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+    messaging.getToken().then((token) => setState(() {
+      print("zein_$token");
+    }));
   }
   @override
   Widget build(BuildContext context) {

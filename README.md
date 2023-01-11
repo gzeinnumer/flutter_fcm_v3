@@ -220,6 +220,17 @@ class _MyAppState extends State<MyApp> {
 |<img src="/preview/img_6.png" width="300"/>|
 |--|
 
+```dart
+//todo 19
+FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+messaging.getToken().then((token) => setState(() {
+  print("zein_$token");
+}));
+//zein_d2Eh3Q9fSZOiYdUA-1HeFX:APA91bEZ_sEOjde21U2nStv6flXre-2z5e7qGZFhEeStf6xzEzy04uD2QNgOJ1nnp9VfrC13bx765wYUH2I-gyXY9Y38caJAFQkRIAkp_zhrzK1wAmn-PbTFbEA-NY_5oWVA2QCe4RBG
+```
+
+
 ---
 
 ```
