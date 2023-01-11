@@ -158,7 +158,8 @@ android {
     }
 }
 ```
-
+|<img src="/preview/img_1.png" width="300"/>|
+|--|
 
 ```dart
   # todo 13
@@ -212,6 +213,12 @@ class _MyAppState extends State<MyApp> {
   }
 }
 ```
+
+|<img src="/preview/img_2.png" width="300"/>|<img src="/preview/img_3.png" width="300"/>|<img src="/preview/img_4.png" width="300"/>|<img src="/preview/img_5.png" width="300"/>|
+|--|--|--|--|
+
+|<img src="/preview/img_6.png" width="300"/>|
+|--|
 
 ---
 
